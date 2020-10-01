@@ -35,19 +35,20 @@ body {
    flex-wrap:wrap;
    -webkit-justify-content:space-between;
    justify-content:space-between;
+  
 
 }
 
 
 .body1 {
   background-color:blue;
-  width:100%;
   margin-left:15px;
   padding:20px;
+  flex: 1 1 0;
 }
 
 .body2 {
   background-color:purple;
-  width:40%;
+  flex: 1 1 3;
 }
 
