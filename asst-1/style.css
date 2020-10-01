@@ -1,0 +1,12 @@
+.header {
+    background-color: #29508F;
+    width:100%;
+    margin-bottom:15px;
+    display:-webkit-flex;
+    display:flex;
+    -webkit-justify-content:space-between;
+    justify-content:space-between;
+    -webkit-align-items:center;
+    align-items:center;
+}
+
