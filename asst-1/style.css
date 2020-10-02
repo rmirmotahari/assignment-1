@@ -62,6 +62,29 @@ body {
 }
 
 .testudo-image {
-  
+    border: 1px solid rgba(0,0,0,0.5);
     max-width:100%;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 1000px) {
+  .body {
+     display:block;
+  }
+
+  .body1 {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+
+  }
+
+  .body1 img {
+    flex:1 !important;
+    max-width:100% !important;
+  }
+
+  .body1 p {
+    flex:2 !important;
+  }
 }
